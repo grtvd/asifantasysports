@@ -1,0 +1,30 @@
+<table border="0" cellpadding="2" cellspacing="0">
+  <tr>
+    <td align="center"><strong><font face="Arial, Helvetica" size="4">Total Points Through
+    Week 12</font></strong></td>
+  </tr>
+  <tr>
+    <td>
+
+
+<table border="2" cellpadding="7" cellspacing="0">
+<tr><td align="center"><strong><font face="Arial, Helvetica" size="3">Rank</font></strong></td><td align="center"><strong><font face="Arial, Helvetica" size="3">Points</font></strong></td><td align="left"><strong><font face="Arial, Helvetica" size="3">Team</font></strong></td><td align="left"><strong><font face="Arial, Helvetica" size="3">League</font></strong></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">1</font></td><td align="center"><font face="Arial, Helvetica" size="3">768</font></td><td><font face="Arial, Helvetica" size="3">Canton Scoundrels</font></td><td><font face="Arial, Helvetica" size="3">Algonquin</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">*2</font></td><td align="center"><font face="Arial, Helvetica" size="3">737</font></td><td><font face="Arial, Helvetica" size="3">Florida Gators</font></td><td><font face="Arial, Helvetica" size="3">Allen Park</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">3</font></td><td align="center"><font face="Arial, Helvetica" size="3">677</font></td><td><font face="Arial, Helvetica" size="3">South Side Silencers</font></td><td><font face="Arial, Helvetica" size="3">Port Angeles</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">4</font></td><td align="center"><font face="Arial, Helvetica" size="3">676</font></td><td><font face="Arial, Helvetica" size="3">Melrose Panthers</font></td><td><font face="Arial, Helvetica" size="3">Kenilworth</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">5</font></td><td align="center"><font face="Arial, Helvetica" size="3">669</font></td><td><font face="Arial, Helvetica" size="3">willingboro Midway Monsters</font></td><td><font face="Arial, Helvetica" size="3">Alma</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">6</font></td><td align="center"><font face="Arial, Helvetica" size="3">660</font></td><td><font face="Arial, Helvetica" size="3">Harrisburg,PA DESTROYERS</font></td><td><font face="Arial, Helvetica" size="3">Waycross</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">7</font></td><td align="center"><font face="Arial, Helvetica" size="3">658</font></td><td><font face="Arial, Helvetica" size="3">Mongolia Khan Men</font></td><td><font face="Arial, Helvetica" size="3">Irmo</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">*8</font></td><td align="center"><font face="Arial, Helvetica" size="3">655</font></td><td><font face="Arial, Helvetica" size="3">Black Cats</font></td><td><font face="Arial, Helvetica" size="3">Quincy Place</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">9</font></td><td align="center"><font face="Arial, Helvetica" size="3">649</font></td><td><font face="Arial, Helvetica" size="3">Sweetwater Plungers</font></td><td><font face="Arial, Helvetica" size="3">Aliquippa</font></td></tr>
+<tr><td align="center"><font face="Arial, Helvetica" size="3">10</font></td><td align="center"><font face="Arial, Helvetica" size="3">640</font></td><td><font face="Arial, Helvetica" size="3">Abington Dolphins</font></td><td><font face="Arial, Helvetica" size="3">Latrobe</font></td></tr>
+</table>
+
+
+    </td>
+  </tr>
+  <tr>
+    <td><font face="Arial, Helvetica" size="1">* - Private League Members</font></td>
+  </tr>
+</table>

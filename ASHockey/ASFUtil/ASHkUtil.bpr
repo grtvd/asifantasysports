@@ -1,0 +1,222 @@
+# ---------------------------------------------------------------------------
+!if !$d(BCB)
+BCB = $(MAKEDIR)\..
+!endif
+
+# ---------------------------------------------------------------------------
+# IDE SECTION
+# ---------------------------------------------------------------------------
+# The following section of the project makefile is managed by the BCB IDE.
+# It is recommended to use the IDE to change any of the values in this
+# section.
+# ---------------------------------------------------------------------------
+
+VERSION = BCB.04.04
+# ---------------------------------------------------------------------------
+PROJECT = ASHkUtil.exe
+OBJFILES = Output\ASHkUtil.obj Output\CommType.obj Output\CommMisc.obj Output\CommErr.obj \
+  Output\CommStr.obj Output\CommFormat.obj Output\CommDB.obj Output\CommDir.obj \
+  Output\CommTick.obj Output\Streamable.obj Output\ObjectBuilder.obj \
+  Output\DataFiler.obj Output\BinaryFiler.obj Output\TextFiler.obj \
+  Output\PipeTextFiler.obj Output\DataSetRecord.obj Output\PasswordEncode.obj \
+  Output\ObjectStore.obj Output\RegistryExt.obj Output\ErrorLog.obj \
+  Output\SendMail.obj Output\RequesterError.obj Output\ASMemberAppOptions.obj \
+  Output\ASMemberType.obj Output\ASMemberObjectBuilder.obj Output\ASMemberDB.obj \
+  Output\ASFantasyAppOptions.obj Output\ASFantasyType.obj \
+  Output\ASFantasyObjectBuilder.obj Output\ASFantasyDB.obj \
+  Output\ASFantasyObjectStore.obj Output\ASFantasyObjectShelf.obj \
+  Output\ASFantasyStatFileLoader.obj Output\ASFantasyStatSummaryBuilder.obj \
+  Output\ASFantasyDraftRanking.obj Output\ASFantasyNewSignupRqst.obj \
+  Output\ASFantasyNewMemberSignupRqst.obj Output\ASFantasyLeagueSignupRqst.obj \
+  Output\ASFantasyUtilManager.obj Output\ASHockeyAppOptions.obj \
+  Output\ASHockeyType.obj Output\ASHockeyObjectBuilder.obj \
+  Output\ASHockeyObjectStore.obj Output\ASHockeyStatFileLoader.obj \
+  Output\ASHockeyDraftRanking.obj Output\ASHockeyUtilManager.obj
+RESFILES =
+RESDEPEN = $(RESFILES)
+LIBFILES =
+IDLFILES =
+IDLGENFILES =
+LIBRARIES =
+SPARELIBS = vcl40.lib
+PACKAGES = Vcl40.bpi Vcldb40.bpi
+DEFFILE =
+# ---------------------------------------------------------------------------
+PATHCPP = .;..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\..\ASFantasy\ASFIsOrb\Source;..\..\ASFantasy\ASFUtil\Source;..\Shared\Source;Source
+PATHASM = .;
+PATHPAS = .;
+PATHRC = .;
+DEBUGLIBPATH = $(BCB)\lib\debug
+RELEASELIBPATH = $(BCB)\lib\release
+SYSDEFINES = USEPACKAGES
+USERDEFINES = _TOOL_NTCON_;TOOLDEBUGON
+# ---------------------------------------------------------------------------
+CFLAG1 = -I..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\..\ASFantasy\ASFIsOrb\Source;..\..\ASFantasy\ASFUtil\Source;..\Shared\Source;Source;$(BCB)\include;$(BCB)\include\vcl \
+  -O2 -Hc -H=$(BCB)\lib\vcl40.csm -w -Ve -Tkh30000 -a4 -k- -vi -c -tWM -b- -w-par \
+  -w-inl -Vx -tWC -D$(SYSDEFINES);$(USERDEFINES)
+IDLCFLAGS = -src_suffixcpp
+PFLAGS = -U..\..\ASFantasy\ASFIsOrb\Source;..\..\ASFantasy\ASFUtil\Source;..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\Shared\Source;Source;$(BCB)\lib\obj;$(BCB)\lib;$(RELEASELIBPATH) \
+  -I..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\..\ASFantasy\ASFIsOrb\Source;..\..\ASFantasy\ASFUtil\Source;..\Shared\Source;Source;$(BCB)\include;$(BCB)\include\vcl \
+  -N2Output -N0Output -D_TOOL_NTCON_;TOOLDEBUGON -$Y- -$L- -$D- -v -JPHN -M
+RFLAGS = -i..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\..\ASFantasy\ASFIsOrb\Source;..\..\ASFantasy\ASFUtil\Source;..\Shared\Source;Source;$(BCB)\include;$(BCB)\include\vcl \
+  -D_TOOL_NTCON_;TOOLDEBUGON
+AFLAGS = /i..\..\..\CBldComm\Source /i..\..\ASMember\Shared\Source \
+  /i..\..\ASFantasy\Shared\Source /i..\..\ASFantasy\ASFIsOrb\Source \
+  /i..\..\ASFantasy\ASFUtil\Source /i..\Shared\Source /iSource /i$(BCB)\include \
+  /i$(BCB)\include\vcl /d_TOOL_NTCON_ /dTOOLDEBUGON /mx /w2 /zn
+LFLAGS = -L..\..\ASFantasy\ASFIsOrb\Source;..\..\ASFantasy\ASFUtil\Source;..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\Shared\Source;Source;$(BCB)\lib\obj;$(BCB)\lib;$(RELEASELIBPATH) \
+  -ap -Tpe -x -Gn -w-dup
+# ---------------------------------------------------------------------------
+ALLOBJ = c0x32.obj $(PACKAGES) $(OBJFILES)
+ALLRES = $(RESFILES)
+ALLLIB = $(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib
+# ---------------------------------------------------------------------------
+!ifdef IDEOPTIONS
+
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=Executable (Console)
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\..\ASFantasy\ASFIsOrb\Source;..\..\ASFantasy\ASFUtil\Source;..\Shared\Source;Source;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\..\ASFantasy\ASFUtil\Source;..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\Shared\Source;Source;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\Shared\Source;Source;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=..\..\ASFantasy\ASFIsOrb\Source;..\..\ASFantasy\ASFUtil\Source;..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\Shared\Source;Source;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\ASFantasy\ASFUtil\Source;..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\Shared\Source;Source;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\..\..\CBldComm\Source;..\..\ASMember\Shared\Source;..\..\ASFantasy\Shared\Source;..\Shared\Source;Source;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_TOOL_NTCON_;TOOLDEBUGON
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=Output
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+InMemoryExe=0
+ShowInfoMsgs=0
+
+!endif
+
+# ---------------------------------------------------------------------------
+# MAKE SECTION
+# ---------------------------------------------------------------------------
+# This section of the project file is not used by the BCB IDE.  It is for
+# the benefit of building from the command-line using the MAKE utility.
+# ---------------------------------------------------------------------------
+
+.autodepend
+# ---------------------------------------------------------------------------
+!if !$d(BCC32)
+BCC32 = bcc32
+!endif
+
+!if !$d(DCC32)
+DCC32 = dcc32
+!endif
+
+!if !$d(TASM32)
+TASM32 = tasm32
+!endif
+
+!if !$d(LINKER)
+LINKER = ilink32
+!endif
+
+!if !$d(BRCC32)
+BRCC32 = brcc32
+!endif
+
+!if !$d(IDL2CPP)
+IDL2CPP = idl2cpp
+!endif
+
+# ---------------------------------------------------------------------------
+!if $d(PATHCPP)
+.PATH.CPP = $(PATHCPP)
+.PATH.C   = $(PATHCPP)
+!endif
+
+!if $d(PATHPAS)
+.PATH.PAS = $(PATHPAS)
+!endif
+
+!if $d(PATHASM)
+.PATH.ASM = $(PATHASM)
+!endif
+
+!if $d(PATHRC)
+.PATH.RC  = $(PATHRC)
+!endif
+# ---------------------------------------------------------------------------
+$(PROJECT): $(IDLGENFILES) $(OBJFILES) $(RESDEPEN) $(DEFFILE)
+    $(BCB)\BIN\$(LINKER) @&&!
+    $(LFLAGS) +
+    $(ALLOBJ), +
+    $(PROJECT),, +
+    $(ALLLIB), +
+    $(DEFFILE), +
+    $(ALLRES)
+!
+# ---------------------------------------------------------------------------
+.pas.hpp:
+    $(BCB)\BIN\$(DCC32) $(PFLAGS) {$< }
+
+.pas.obj:
+    $(BCB)\BIN\$(DCC32) $(PFLAGS) {$< }
+
+.cpp.obj:
+    $(BCB)\BIN\$(BCC32) $(CFLAG1) -n$(@D) {$< }
+
+.c.obj:
+    $(BCB)\BIN\$(BCC32) $(CFLAG1) -n$(@D) {$< }
+
+.asm.obj:
+    $(BCB)\BIN\$(TASM32) $(AFLAGS) $<, $@
+
+.rc.res:
+    $(BCB)\BIN\$(BRCC32) $(RFLAGS) -fo$@ $<
+# ---------------------------------------------------------------------------
+

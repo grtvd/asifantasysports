@@ -1,0 +1,1 @@
+del Z:\InetPub\wwwroot\ASBaseball\Java\*.class

@@ -1,0 +1,1 @@
+update profplayer set totalpoints = 0, lastweekspoints = 0

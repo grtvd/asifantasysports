@@ -1,0 +1,32 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ASMember]
+"DailyBackupTime"="05:25A"
+"LastBackupDate"="06/09/1999"
+"MailHostName"="stmp1.kivex.com"
+"MailProfile"="Microsoft Outlook Internet Settings"
+"MailUserID"="theref"
+"RegistryHost"=""
+"StatDownloadDir"="C:\\InetPub\\ftproot\\Stats"
+"StatusEmailIntSecs"=dword:00001c20
+"SysOpEmail"="6106622015@mobile.att.net"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ASMember\CommErrFileList]
+"NumStrings"=dword:00000010
+"String00001"="\\\\Apollo\\C$\\Program Files\\ASMember\\ASManager.out"
+"String00002"="\\\\Apollo\\C$\\Program Files\\ASMember\\ASPayPrc.out"
+"String00003"="\\\\Apollo\\C$\\Program Files\\ASMember\\ASMailList.out"
+"String00004"="\\\\Apollo\\C$\\Program Files\\ASMember\\ASMHttpAuth.out"
+"String00005"="\\\\Apollo\\C$\\Program Files\\ASFootball\\ASFbEng.out"
+"String00006"="\\\\Apollo\\C$\\Program Files\\ASFootball\\ASFbIsa.out"
+"String00007"="\\\\Apollo\\C$\\Program Files\\ASFootball\\ASFbIsOb.out"
+"String00008"="\\\\Apollo\\C$\\Program Files\\ASBaseball\\ASBbEng.out"
+"String00009"="\\\\Apollo\\C$\\Program Files\\ASBaseball\\ASBbIsa.out"
+"String00010"="\\\\Apollo\\C$\\Program Files\\ASBaseball\\ASBbIsOb.out"
+"String00011"="\\\\Apollo\\C$\\Program Files\\ASHockey\\ASHkEng.out"
+"String00012"="\\\\Apollo\\C$\\Program Files\\ASHockey\\ASHkIsa.out"
+"String00013"="\\\\Apollo\\C$\\Program Files\\ASHockey\\ASHkIsOb.out"
+"String00014"="\\\\Apollo\\C$\\Program Files\\ASBasketball\\ASBkEng.out"
+"String00015"="\\\\Apollo\\C$\\Program Files\\ASBasketball\\ASBkIsa.out"
+"String00016"="\\\\Apollo\\C$\\Program Files\\ASBasketball\\ASBkIsOb.out"
+

@@ -1,0 +1,30 @@
+	22	ARZ	Arizona	Cardinals
+	1	ATL	Atlanta	Falcons
+	33	BAL	Baltimore	Ravens
+	2	BUF	Buffalo	Bills
+	29	CAR	Carolina	Panthers
+	3	CHI	Chicago	Bears
+	4	CIN	Cincinnati	Bengals
+	6	DAL	Dallas	Cowboys
+	7	DEN	Denver	Broncos
+	8	DET	Detroit	Lions
+	9	GRE	Green Bay	Packers
+	11	IND	Indianapolis	Colts
+	30	JAC	Jacksonville	Jaguars
+	12	KAN	Kansas City	Chiefs
+	15	MIA	Miami	Dolphins
+	16	MIN	Minnesota	Vikings
+	17	ENG	New England	Patriots
+	18	NOS	New Orleans	Saints
+	20	NYJ	New York	Jets
+	19	NYG	New York	Giants
+	13	OAK	Oakland	Raiders
+	21	PHL	Philadelphia	Eagles
+	23	PIT	Pittsburgh	Steelers
+	24	SDC	San Diego	Chargers
+	25	SFR	San Francisco	49ers
+	26	SEA	Seattle	Seahawks
+	14	STL	St. Louis	Rams
+	27	TAM	TampaBay	Buccaneers
+	10	TEN	Tennessee	Oilers
+	28	WAS	Washington	Redskins

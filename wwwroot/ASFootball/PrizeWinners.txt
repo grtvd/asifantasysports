@@ -1,0 +1,28 @@
+<table border="2" cellpadding="7"
+        cellspacing="0">
+          <tr>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3"><strong>Owner</strong></font></td>
+            <td align="center" valign="middle"><font face="Arial, Helvetica" size="3"><strong>Prize</strong></font></td>
+            <td align="left" valign="middle"><strong><font face="Arial, Helvetica" size="3">Team</font></strong></td>
+            <td align="left" valign="middle"><strong><font face="Arial, Helvetica" size="3">League</font></strong></td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">Scott Mahoney</font></td>
+            <td align="center" valign="middle"><font face="Arial, Helvetica" size="3">$1,000</font></td>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">West Side
+            Pornstars</font></td>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">Port Angeles</font></td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">Norman Hayes</font></td>
+            <td align="center" valign="middle"><font face="Arial, Helvetica" size="3">$250</font></td>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">Canton Scoundrels</font></td>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">Algonquin</font></td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">Anita Root</font></td>
+            <td align="center" valign="middle"><font face="Arial, Helvetica" size="3">$100</font></td>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">Abington Dolphins</font></td>
+            <td align="left" valign="middle"><font face="Arial, Helvetica" size="3">Latrobe</font></td>
+          </tr>
+        </table>

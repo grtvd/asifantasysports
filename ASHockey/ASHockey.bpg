@@ -1,0 +1,32 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = ASHkEng.exe ASHkIsa.dll ASHkIsOb.dll ASHkUtil.exe IsapiTester.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+ASHkEng.exe: ASFEng\ASHkEng.bpr
+  $(MAKE)
+
+ASHkIsa.dll: ASFIsapi\ASHkIsa.bpr
+  $(MAKE)
+
+ASHkIsOb.dll: ASFIsOrb\ASHkIsOb.bpr
+  $(MAKE)
+
+ASHkUtil.exe: ASFUtil\ASHkUtil.bpr
+  $(MAKE)
+
+IsapiTester.exe: IsapiTester\IsapiTester.bpr
+  $(MAKE)
+
+
